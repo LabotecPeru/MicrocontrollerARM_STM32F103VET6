@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=ARM32F103.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\ARM32F103 -TC:\CooCox\CoIDE\configuration\ProgramData\ARM32F103/arm-gcc-link.ld -g">
+      <target file="ARM32F103.elf" lastModified="1591a631375">
+         <source file="..\obj\spi.o" lastModified="1591a62ad93"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1591a62b17e"/>
+         <source file="..\obj\i2c.o" lastModified="1591a62b316"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1591a62b4ba"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="1591a62b616"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1591a62b7c0"/>
+         <source file="..\obj\main.o" lastModified="1591a631031"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1591a62bb8a"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1591a62be06"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1591a62bfcf"/>
+         <source file="..\obj\syscalls.o" lastModified="1591a62c237"/>
+         <source file="..\obj\adc.o" lastModified="1591a62c403"/>
+         <source file="..\obj\misc.o" lastModified="1591a62c5b6"/>
+         <source file="..\obj\GPIOHYSTM32.o" lastModified="1591a62c73d"/>
+         <source file="..\obj\systick.o" lastModified="1591a62c8f9"/>
+         <source file="..\obj\usart.o" lastModified="1591a62ca8f"/>
+      </target>
+   </processor>
+</history>

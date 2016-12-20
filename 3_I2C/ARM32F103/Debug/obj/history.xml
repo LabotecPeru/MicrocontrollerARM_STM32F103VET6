@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103VE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE\ARM32F103_I2C_V2\LIBRERIAS -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE\ARM32F103_I2C_V2\stm_lib\inc -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE\ARM32F103_I2C_V2\cmsis_boot -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE\ARM32F103_I2C_V2 -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE\ARM32F103_I2C_V2\cmsis -ID:\__Proyectos_2016\Proyectos_EULER\TARJETA_ARM_CORTEX_M3\Ejemplos_COOCOX_IDE\ARM32F103_I2C_V2\stm_lib">
+      <target file="spi.o" lastModified="156b38bc2c4">
+         <source file="..\..\..\LIBRERIAS\spi.c" lastModified="1533aa813cf"/>
+      </target>
+      <target file="systick.o" lastModified="156b38bcc87">
+         <source file="..\..\..\LIBRERIAS\systick.c" lastModified="1533abcb5d9"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="156b38bc856">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15334df9bed"/>
+      </target>
+      <target file="i2c.o" lastModified="156b38bc5e2">
+         <source file="..\..\..\LIBRERIAS\i2c.c" lastModified="1537e1c8982"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="156b38bcd27">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="1537e2abcd6"/>
+      </target>
+      <target file="misc.o" lastModified="156b38bcbee">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15335588f6a"/>
+      </target>
+      <target file="mpu6050.o" lastModified="156b38bc9ff">
+         <source file="..\..\..\LIBRERIAS\mpu6050.c" lastModified="1537e19e1d9"/>
+      </target>
+      <target file="GPIOHYSTM32.o" lastModified="156b38bcc3a">
+         <source file="..\..\..\LIBRERIAS\GPIOHYSTM32.c" lastModified="1533b8346cf"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="156b38bc6f9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15334dfc758"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="156b38bc663">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15334df9c61"/>
+      </target>
+      <target file="syscalls.o" lastModified="156b38bcb19">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1533ecf2ded"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="156b38bc693">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="15334df9c11"/>
+      </target>
+      <target file="adc.o" lastModified="156b38bcb92">
+         <source file="..\..\..\LIBRERIAS\adc.c" lastModified="1533f05c02e"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="156b38bc595">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15335575fa7"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="156b38bc901">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1533edba9bd"/>
+      </target>
+      <target file="usart.o" lastModified="156b38bcd92">
+         <source file="..\..\..\LIBRERIAS\usart.c" lastModified="1533b86cb00"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="156b38bc9b7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1533a48977d"/>
+      </target>
+      <target file="main.o" lastModified="156b38bc7cd">
+         <source file="..\..\..\main.c" lastModified="1537e3ce585"/>
+      </target>
+   </processor>
+</history>

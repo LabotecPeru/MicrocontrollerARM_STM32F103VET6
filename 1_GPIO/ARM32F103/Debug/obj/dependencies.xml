@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\cmsis_boot /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\LIBRERIAS\faffs /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\LIBRERIAS /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\stm_lib /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\LIBRERIAS\faffs\lo_level_ub /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\stm_lib\inc /ID:\LaboTEC\Cursos\Curso_ARM\STM32F103VE\1_GPIO\cmsis">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="15334dfa057">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1536bb3daad">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15334df9beb">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15334dfc758">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="1533edba99e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_atadrive.h" lastModified="1536bb7f972">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15334df9c63">
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_atadrive.c" lastModified="13d29006ab0">
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_atadrive.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15334df9c61">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\ff.h" lastModified="149939751c0">
+         <include file="..\..\..\LIBRERIAS\faffs\integer.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1536bb5035f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\ff.c" lastModified="149939755a8">
+         <include file="..\..\..\LIBRERIAS\faffs\ff.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\diskio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="15335588f6a">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15334dfa442">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="1533a48977c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="15334df9c11">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15335575fa7">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\GPIOHYSTM32.h" lastModified="1591a57191f">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1533a48977d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_usbdisk.h" lastModified="1536bb7fa0c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\diskio.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\stm32_ub_fatfs.h" lastModified="1536bc69845">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\ff.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_sdcard.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_usbdisk.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_atadrive.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1536bb3daab">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\GPIOHYSTM32.c" lastModified="1537de8c458">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\LIBRERIAS\GPIOHYSTM32.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_sdcard.h" lastModified="1536bf92fcd">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\diskio.h"/>
+         <include file="..\..\..\LIBRERIAS\spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_usbdisk.c" lastModified="13d29006ab0">
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_usbdisk.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\stm32_ub_fatfs.c" lastModified="15318fd2efd">
+         <include file="..\..\..\LIBRERIAS\stm32_ub_fatfs.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="15335588f68">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\ffconf.h" lastModified="149efe47070">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1533ecf3d8d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_sdcard.c" lastModified="1536c11c27c">
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_sdcard.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\systick.h" lastModified="1533abcb5f1">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15334dfa444">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1591a56693a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\stm32_ub_fatfs.h"/>
+         <include file="..\..\..\LIBRERIAS\GPIOHYSTM32.h"/>
+         <include file="..\..\..\LIBRERIAS\usart.h"/>
+         <include file="..\..\..\LIBRERIAS\spi.h"/>
+         <include file="..\..\..\LIBRERIAS\systick.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\systick.c" lastModified="1591a5491fa">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\systick.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\diskio.h" lastModified="149939751c0">
+         <include file="..\..\..\LIBRERIAS\faffs\integer.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15334df9bed">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="15334dfa044">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\diskio.c" lastModified="149efef8460">
+         <include file="..\..\..\LIBRERIAS\faffs\diskio.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_usbdisk.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_atadrive.h"/>
+         <include file="..\..\..\LIBRERIAS\faffs\lo_level_ub\stm32_ub_sdcard.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\adc.c" lastModified="1533f05c02e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1533edba9bd">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\usart.h" lastModified="1533f09cb6c">
+      </source>
+      <source file="..\..\..\LIBRERIAS\usart.c" lastModified="1533b86cb00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\LIBRERIAS\usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15335575fa4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15334dfc756">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\faffs\integer.h" lastModified="14993975990">
+      </source>
+      <source file="..\..\..\LIBRERIAS\spi.h" lastModified="1536bb50316">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\LIBRERIAS\i2c.c" lastModified="1533aa860a1">
+      </source>
+      <source file="..\..\..\LIBRERIAS\spi.c" lastModified="1536bb502e6">
+         <include file="..\..\..\LIBRERIAS\spi.h"/>
+      </source>
+   </includePath>
+</dependencies>
